@@ -31,16 +31,18 @@ Our data can be in various formats i.e., numbers (integers) & words (strings), f
 
 Assume our dataset has random numeric values in the range 1 to 95,000. Obviously in random order though. Just for our understanding consider a small Dataset of barely 10 values with numbers in the given range and randomized order.
 
-1)  99
-2)  789
-3)  1
-4)  541
-5)  5
-6)  6589
-7)  94142
-8)  7
-9)  50826
-10) 35464
+Index | Original Value 
+------|------
+1)    | 99
+2)    | 789
+3)    | 1
+4)    | 541
+5)    | 5
+6)    | 6589
+7)    | 94142
+8)    | 7
+9)    | 50826
+10)   | 35464
 
 If we just look at these values, their range is so high, that while training the model with 10,000 such values will take lot of time. So we have a problem .
 
